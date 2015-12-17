@@ -88,7 +88,7 @@ opacity: 1; /*结尾状态 透明度为1*/
 
 #background
 {
-background-image:url(http://zhangjiafan.oss-cn-shenzhen.aliyuncs.com/myboke/background1.jpg);
+background-image:url(http://zhangjiafan.oss-cn-shenzhen.aliyuncs.com/mybokeback2.jpg);
 background-position:top; background-repeat: repeat-y; 
 -webkit-animation-name: fadeIn; /*动画名称*/
 -webkit-animation-duration: 1s; /*动画持续时间*/
