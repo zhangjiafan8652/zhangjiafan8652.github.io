@@ -72,16 +72,25 @@ footer { border-top: 9px solid #f16e50; background: #242221; width: 100%; }
 .Copyright ul a { color: #f16e50; display: inline; padding: 0 10px; }
 .Copyright ul a:nth-child(-n+3) { border-right: #999 1px solid }
 .Copyright ul a:hover { color: #ff8b70; }
-.linear { 
+@-webkit-keyframes fadeIn {
+0% {
+opacity: 0; 
+/*初始状态 透明度为0*/
+}
+50% {
+opacity: 0; /*中间状态 透明度为0*/
+}
+100% {
+opacity: 1; /*结尾状态 透明度为1*/
+}
+}
 
-width:100%; 
 
-height:100%; 
-
-
-
-
-
-
-
-} 
+#background
+{
+background-image:url(http://zhangjiafan.oss-cn-shenzhen.aliyuncs.com/myboke/background1.jpg);
+background-position:top; background-repeat: repeat-y; 
+-webkit-animation-name: fadeIn; /*动画名称*/
+-webkit-animation-duration: 1s; /*动画持续时间*/
+-webkit-animation-iteration-count: 1; /*动画次数*/
+-webkit-animation-delay: 0s; /*延迟时间*/}
